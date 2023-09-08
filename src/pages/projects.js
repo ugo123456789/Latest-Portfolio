@@ -38,7 +38,7 @@ const projects = () => {
               <Project1
                 title="E-Store Application"
                 type="Web Application"
-                link="https://e-store-pi.vercel.app/"
+                link="https://e-store-ugo123456789.vercel.app/"
                 github="https://github.com/ugo123456789/e-Store"
                 img={eStore}
               />
