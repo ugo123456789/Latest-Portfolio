@@ -7,7 +7,6 @@ import profile from "../../public/images/profile/profile.jpg";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
 import Transition from "@/components/Transition";
-import React from "react";
 
 const AnimatedNumbers = ({ value }) => {
 	const ref = useRef(null);
