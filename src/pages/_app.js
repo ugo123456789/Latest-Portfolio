@@ -4,6 +4,7 @@ import NavBar from '../components/NavBar';
 import Footer from '@/components/Footer';
 import { AnimatePresence } from 'framer-motion';
 import { useRouter } from 'next/router';
+import React from 'react';
 
 
 export default function App({ Component, pageProps }) {

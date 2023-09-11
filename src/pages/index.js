@@ -8,6 +8,7 @@ import { LinkArrow } from "@/components/icons";
 import HireMe from "@/components/HireMe";
 import bulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import Transition from "@/components/Transition";
+import React from "react";
 
 export default function Home() {
 	return (

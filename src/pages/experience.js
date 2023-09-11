@@ -66,18 +66,29 @@ const Experience = () => {
 							/>
 							<motion.div style={{ zIndex: 1, position: "relative" }}>
 								<ul className="w-full flex flex-col items-start justify-between sm:ml-2 ml-4">
+								<Details
+										position="Frontend Engineer"
+										company="LadderHills"
+										time="2022-Present"
+										address="London, United Kingdom"
+										work="• A recruitment agency specializing in B2B, and Healthcare Recruitment.
+										• Leading the development of a website for a startup recruitment agency, managing project tasks from requirement and contributing to design and functionality decisions.
+										• Implementing responsive design and ensuring compliance with WCAG standards, resulting in a 20% increase in conversion rates.
+										• Received positive client feedback and internal recognition for exceptional design, functionality and web performance."
+									/>
 									<Details
 										position="Frontend Developer"
 										company="Freelance"
 										time="2022-Present"
 										address="London, United Kingdom"
-										work="Successfully contributed to the development of an e-commerce application using ReactJS ,NextJS, Typescript.
-                                        Implemented responsive design and ensured compliance with WCAG standards,resulting in improved user experience. 
-                                        Received positive client feedback and internal recognition for exceptional design and functionality."
+										work="Developed a robust e-commerce content management system application using React, TailwindCSS, Typescript and Next.js
+										• Resolved complex challenges related to server and client-side rendering, ensuring seamless user experiences across devices.
+										• Developed a custom server-side rendering (SSR) solution in Next.js, which led to a 50% reduction in page load times for our CMS
+										 web application. This optimization allowed us to efficiently render dynamic content while improving SEO performance, resulting in a 15% increase in organic traffic over a span of six months."
 									/>
 
 									<Details
-										position="Python Developer"
+										position="Software Engineer Intern"
 										company="Bincom Tech"
 										time="2021-2022"
 										address="Lagos, Nigeria"

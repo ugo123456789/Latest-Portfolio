@@ -6,13 +6,14 @@ import { motion } from "framer-motion";
 import {
 	LinkedInIcon,
 	GithubIcon,
-	TwitterIcon,
-	PinterestIcon,
 	SunIcon,
 	MoonIcon,
 } from "./icons";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
-import { Twirl as Hamburger, Twirl } from "hamburger-react";
+import { Twirl as Twirl } from "hamburger-react";
+
+import PropTypes from 'prop-types';
+
 
 const CustomLink = ({ href, title, className = "" }) => {
 	const router = useRouter();
@@ -30,6 +31,12 @@ const CustomLink = ({ href, title, className = "" }) => {
 		</Link>
 	);
 };
+
+CustomLink.PropTypes = {
+	href: PropTypes.string,
+	title: PropTypes.string,
+	className: PropTypes.string,
+}
 
 const MobilieLink = ({ href, title, className = "", toggle }) => {
 	const router = useRouter();
@@ -52,6 +59,12 @@ const MobilieLink = ({ href, title, className = "", toggle }) => {
 		</button>
 	);
 };
+MobilieLink.PropTypes = {
+	toggle: PropTypes.func.isRequired,
+	href: PropTypes.string,
+	title: PropTypes.string,
+	className: PropTypes.string
+}
 
 const NavBar = () => {
 	const [mode, setMode] = useThemeSwitcher();

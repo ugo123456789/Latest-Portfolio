@@ -1,6 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { GithubIcon } from "@/components/icons";
+import PropTypes from 'prop-types';
+import React from 'react';
+
+
 
 export const FeaturedProject = ({
   type,
@@ -46,3 +50,13 @@ export const FeaturedProject = ({
     </article>
   );
 };
+
+FeaturedProject.PropTypes = {
+  type : PropTypes.string ,
+  title  : PropTypes.string.isRequired,
+  summary   : PropTypes.string.isRequired,
+  img    : PropTypes.string.isRequired,
+  link     : PropTypes.string.isRequired,
+  github: PropTypes.string
+
+}

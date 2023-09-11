@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { GithubIcon } from "@/components/icons";
+import React from "react";
 
 export const Project1 = ({ type, title, img, link, github }) => {
 	return (

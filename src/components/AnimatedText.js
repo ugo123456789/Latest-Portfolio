@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import PropTypes from 'prop-types';
+
 
 const quote = {
 	initial: {
@@ -50,5 +52,10 @@ const AnimatedText = ({ text, className = "" }) => {
 		</motion.div>
 	);
 };
+
+AnimatedText.propTypes = {
+	text: PropTypes.string.isRequired, // 'text' prop is required and should be a string
+	className: PropTypes.string, // 'className' prop is optional and should be a string
+  };
 
 export default AnimatedText;

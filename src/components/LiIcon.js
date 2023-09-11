@@ -1,5 +1,7 @@
 import React from 'react'
 import {motion, useScroll} from 'framer-motion'
+import PropTypes from 'prop-types';
+
 
 const LiIcon = ({reference}) => {
 
@@ -21,6 +23,10 @@ const LiIcon = ({reference}) => {
         </svg>
     </figure>
   )
+}
+
+LiIcon.PropTypes = {
+  reference : PropTypes.any //React ref object for the parent element of this component
 }
 
 export default LiIcon

@@ -6,6 +6,8 @@ import React from "react";
 import eStore from "../../public/images/projects/E-store.png";
 import Admin from "../../public/images/projects/admin.png";
 import Gym from "../../public/images/projects/gym.png";
+import ladderhills from "../../public/images/projects/ladderhills.png";
+
 
 import { FeaturedProject } from "@/components/projects/featuredProject";
 import { Project1 } from "@/components/projects/project1";
@@ -50,6 +52,16 @@ const projects = () => {
                 link="https://fit-gym-five.vercel.app/"
                 github="https://github.com/ugo123456789"
                 img={Gym}
+              />
+            </div>
+            <div className="col-span-6">
+              <FeaturedProject
+                title="LadderHills"
+                type="Website"
+                summary="Built the official website for a start-up recruitment agency. Currently at the early stages."
+                link="https://ladderhills.com/"
+                github="https://github.com/ugo123456789/"
+                img={ladderhills}
               />
             </div>
           </div>

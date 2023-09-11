@@ -7,6 +7,7 @@ import profile from "../../public/images/profile/profile.jpg";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
 import Transition from "@/components/Transition";
+import React from "react";
 
 const AnimatedNumbers = ({ value }) => {
 	const ref = useRef(null);
@@ -66,7 +67,7 @@ const about = () => {
 								Biography
 							</h2>
 							<p className="font-medium">
-								I am a Frontend developer with 1 year of professional work
+								I am a Frontend developer with 1+ year of professional work
 								experience working with Javascript, React.js and Typescript. Proficient
 								in modern technologies such as NextJs and TailwindCSS.
 							</p>
