@@ -26,6 +26,7 @@ const projects = () => {
           <AnimatedText text="My Projects" text1="" text2="" className="" />
 
           <div className="mt-4 grid grid-cols-6  gap-12 xl:gap-16">
+<<<<<<< HEAD
             <div className="col-span-6">
               <FeaturedProject
                 title="E-Store-Admin CMS Application"
@@ -39,6 +40,22 @@ const projects = () => {
             <div className="md:col-span-3 col-span-6">
               <Project1
                 title="E-Store Application"
+=======
+          <div className="col-span-6">
+              <FeaturedProject
+                title="LadderHills"
+                type="Featured Project"
+                summary="Built the official website for a start-up recruitment agency."
+                link="https://ladderhills.com/"
+                github="https://github.com/ugo123456789/"
+                img={ladderhills}
+              />
+            </div>
+ 
+            <div className="md:col-span-3 col-span-6">
+              <Project1
+                title="E-Store"
+>>>>>>> 8d8849b (Typescript added. LadderHills Project added)
                 type="Web Application"
                 link="https://e-store-ugo123456789.vercel.app/"
                 github="https://github.com/ugo123456789/e-Store"
@@ -48,12 +65,17 @@ const projects = () => {
             <div className="md:col-span-3 col-span-6">
               <Project1
                 title="FitGym"
+<<<<<<< HEAD
                 type="Website Template"
+=======
+                type="Website"
+>>>>>>> 8d8849b (Typescript added. LadderHills Project added)
                 link="https://fit-gym-five.vercel.app/"
                 github="https://github.com/ugo123456789"
                 img={Gym}
               />
             </div>
+<<<<<<< HEAD
             <div className="col-span-6">
               <FeaturedProject
                 title="LadderHills"
@@ -62,6 +84,17 @@ const projects = () => {
                 link="https://ladderhills.com/"
                 github="https://github.com/ugo123456789/"
                 img={ladderhills}
+=======
+  
+            <div className="col-span-6">
+              <FeaturedProject
+                title="E-Store-Admin "
+                type="Web Application"
+                summary="A feature-rich ecommerce content management system which helps users create and manage content for their e-commerce store using a human-friendly interface, rather than needing to work directly with the code. Built with NextJS, Tailwind CSS(Shadcn UI), Typescript, Clerk Authentication."
+                link="https://e-store-admin-ugo123456789.vercel.app/"
+                github="https://github.com/ugo123456789/E-Store-Admin"
+                img={Admin}
+>>>>>>> 8d8849b (Typescript added. LadderHills Project added)
               />
             </div>
           </div>
