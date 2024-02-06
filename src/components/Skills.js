@@ -8,10 +8,7 @@ import nextjs from "../../public/images/assets/nextjs.png"
 import tailwind from "../../public/images/assets/tailwind.png"
 import github from "../../public/images/assets/github.png"
 import redux from "../../public/images/assets/redux.png"
-<<<<<<< HEAD
-=======
 import typescript from  "../../public/images/assets/typescript.png"
->>>>>>> 8d8849b (Typescript added. LadderHills Project added)
 
 import Image from 'next/image'
 
@@ -67,15 +64,13 @@ const techs = [
         title: 'Redux',
         style: 'shadow-purple-500 bg-gray-300'
     },
-<<<<<<< HEAD
-=======
+
     {
       id: 10,
       src: typescript,
       title: 'Typescript',
       style: 'shadow-purple-500 bg-gray-300'
   },
->>>>>>> 8d8849b (Typescript added. LadderHills Project added)
 ];
 
 
